@@ -13,7 +13,7 @@ Examples for the 'SET' and 'DO' instructions:
 
 SET A := 5 * 2 ---- This will set the value 10 to the variable A 
 
-# Example of a NESTED LOOP WITH DO-LOOP FUNCTIONALITY
+# Example of a nested loop with DO-loop functionality
 
 {
   DO A FROM 1 TO 50 {
