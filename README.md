@@ -3,17 +3,17 @@
 A Turtle Graphics program which uses SDL to display the images. In order to move the turtle the instructions 
 are as followed:
 
-FD - Forward 
-RT - Right Turn
-LT - Left Turn
-SET - Assigns a value to a specified variable
-DO - Runs an instruction in a loop for a specified amount of time (similar to a for-loop) 
+• FD - Forward 
+• RT - Right Turn
+• LT - Left Turn
+• SET - Assigns a value to a specified variable
+• DO - Runs an instruction in a loop for a specified amount of time (similar to a for-loop) 
 
 Examples for the 'SET' and 'DO' instructions:
 
 SET A := 5 * 2 ---- This will set the value 10 to the variable A 
 
-// NESTED LOOP WITH DO-LOOP FUNCTIONALITY
+# Example of a NESTED LOOP WITH DO-LOOP FUNCTIONALITY
 
 {
   DO A FROM 1 TO 50 {
@@ -28,5 +28,4 @@ SET A := 5 * 2 ---- This will set the value 10 to the variable A
    
 }
 
-The standard program is contained within interpreter.c, while extention.c contains a program with additional 
-functionality which allows the user to store moves for the turtle to use.
+The standard program is contained within interpreter.c, while extention.c contains a program updated with a hash table and linked lists  which allows the user to store moves under a variable name to be executed when called.
